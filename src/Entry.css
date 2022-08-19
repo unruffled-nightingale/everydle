@@ -1,0 +1,29 @@
+.Entry {
+  padding: 5px 25px 0 0;
+  text-align: left;
+  height: 50px;
+  width: 100px;
+  display: inline-block;
+  text-decoration: none;
+}
+.Entry div{
+  height: 50px;
+  width: 100px; 
+  position: relative; 
+}
+.Entry img {
+  max-width: 100px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.Entry h1 {
+  font-size: 0.8em;
+  text-align: center;
+}
