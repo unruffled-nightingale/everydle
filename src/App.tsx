@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Entry from './Entry';
+import GenreSplitter from './GenreSplitter';
+import Title from './Title';
+import {data, EntryType} from './resources/data'
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title/>
+        {(data).map((genre: Record<string, EntryType[]>) => 
+          Object.entries(genre).map((g) => (
+              <>
+                <GenreSplitter genre={g[0]}/>
+                { g[1].map((v: EntryType) => <Entry key={v.name} name={v.name} url={v.url} img={v.img} desc={v.desc}/> )}
+              </>
+            )
+        )
+      )}
     </div>
   );
 }
