@@ -2,6 +2,7 @@ import './App.css';
 import Entry from './Entry';
 import GenreSplitter from './GenreSplitter';
 import Title from './Title';
+import Thanks from './Thanks';
 import {data, EntryType} from './resources/data'
 
 
@@ -19,6 +20,7 @@ function App() {
           )
         )
       )}
+      <Thanks/>
     </div>
   );
 }

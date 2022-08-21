@@ -2,121 +2,123 @@
 // https://www.pastemagazine.com/games/best-wordle-variants/
 // https://gist.github.com/maxspero/0a2f536b9561d829caf6bd994a34193d
 
-import wordle from './assets/wordle.png'
-import tridle from './assets/tridle.png'
-import quordle from './assets/quordle.png'
-import octordle from './assets/octordle.png'
-import dordle from './assets/dordle.png'
-import thirtle from './assets/thirtle.png'
-import kilordle from './assets/kilordle.png'
-import polydle from './assets/polydle.png'
-import sedecordle from './assets/sedecordle.png'
-import worwordledle from './assets/worwordledle.png'
-import crosswordle from './assets/crosswordle.png'
-import evilwurdle from './assets/evilwurdle.png'
-import speedle from './assets/speedle.png'
-import poeltl from './assets/poeltl.png'
-import squardle from './assets/squardle.png'
-import absurdle from './assets/absurdle.png'
-import evilwordle from './assets/evilwordle.png'
-import qwrtl from './assets/qwrtl.png'
-import waffle from './assets/waffle.png'
-import reversle from './assets/reversle.png'
-import survivle from './assets/survivle.png'
-import absurvivle from './assets/absurvivle.png'
-import scrabwordle from './assets/scrabwordle.png'
-import xordle from './assets/xordle.png'
-import fibble from './assets/fibble.png'
-import sixdle from './assets/sixdle.png'
-import warmle from './assets/warmle.png'
-import wordpeaks from './assets/wordlepeaks.png'
-import symble from './assets/symble.png'
-import weredle from './assets/weredle.png'
-import nerdle from './assets/nerdle.png'
-import weaver from './assets/weaver.png'
-import taylordle from './assets/taylordle.png'
-import byrdle from './assets/byrdle.png'
-import btswordle from './assets/btswordle.png'
-import sweardle from './assets/sweardle.png'
-import lewdle from './assets/lewdle.png'
-import jordle from './assets/jordle.png'
-import queerdle from './assets/queerdle.png'
-import ygordle from './assets/ygordle.png'
-import oundle from './assets/oundle.png'
-import paimordle from './assets/paimordle.png'
-import brdl from './assets/brdl.png'
-import lordle_of_the_rings from './assets/lordle_of_the_rings.png'
-import swordle from './assets/swordle.png'
-import gordle from './assets/gordle.png'
-import pawdle from './assets/pawdle.png'
-import scholardle from './assets/scholardle.png'
-import hogwartle from './assets/hogwartle.png'
-import foodle from './assets/foodle.png'
-import airportle from './assets/airportle.png'
-import airportle_2 from './assets/airportle_2.png'
-import lemot from './assets/lemot.png'
-import sutom from './assets/sutom.png'
-import verba from './assets/verba.png'
-import wordlees from './assets/wordlees.png'
-import termo from './assets/termo.png'
-import ordlig from './assets/ordlig.png'
-import hebrew from './assets/hebrew.png'
-import kerdle from './assets/kerdle.png'
-import korean from './assets/korean.png'
-import welshwordle from './assets/welshwordle.png'
-import musinimi from './assets/musinimi.png'
-import ipadle from './assets/ipadle.png'
-import wordwazzle from './assets/wordwazzle.png'
-import hellowordl from './assets/hellowordl.png'
-import wordguessr from './assets/wordguessr.png'
-import wheeldle from './assets/wheeldle.png'
-import wordmaster from './assets/wordmaster.png'
-import wordleoff from './assets/wordleoff.png'
-import squabble from './assets/squabble.png'
-import wordhoot from './assets/wordhoot.png'
-import wordlecup from './assets/wordlecup.png'
-import worduel from './assets/worduel.png'
-import wordlewithfriends from './assets/wordlewithfriends.png'
-import hexlecolor from './assets/hexlecolor.png'
-import bytle from './assets/bytle.png'
-import hexle from './assets/hexle.png'
-import semantle from './assets/semantle.png'
-import commandercodex from './assets/commandercodex.png'
-import scidle from './assets/scidle.png'
-import squirdle from './assets/squirdle.png'
-import whoareya from './assets/whoareya.png'
-import framed from './assets/framed.png'
-import cloudle from './assets/cloudle.png'
-import redactle from './assets/redactle.png'
-import movlie from './assets/movlie.png'
-import bookli from './assets/bookli.png'
-import thesaurdle from './assets/thesaurdle.png'
-import joinedwords from './assets/joinedwords.png'
-import revertle from './assets/revertle.png'
-import quintessential from './assets/quintessential.png'
-import antiwordle from './assets/antiwordle.png'
-import tusmo from './assets/tusmo.png'
-import optimle from './assets/optimle.png'
-import chessle from './assets/chessle.png'
-import fusekle from './assets/fusekle.png'
-import pictle from './assets/pictle.png'
-import heardle from './assets/heardle.png'
-import squaredle from './assets/squaredle.png'
-import primel from './assets/primel.png'
-import mathler from './assets/mathler.png'
-import nerdle2 from './assets/nerdle2.png'
-import mathle from './assets/mathle.png'
-import numberle from './assets/numberle.png'
-import equatle from './assets/equatle.png'
-import addle from './assets/addle.png'
-import subwaydle from './assets/subwaydle.png'
-import worldle from './assets/worldle.png'
-import globle from './assets/globle.png'
-import tradle from './assets/tradle.png'
-import flagdle from './assets/flagdle.png'
-import flagle from './assets/flagle.png'
-import letterle from './assets/letterle.png'
-import passwordle from './assets/passwordle.png'
+import wordle from './assets/compressed/wordle.png'
+import tridle from './assets/compressed/tridle.png'
+import quordle from './assets/compressed/quordle.png'
+import octordle from './assets/compressed/octordle.png'
+import dordle from './assets/compressed/dordle.png'
+import thirtle from './assets/compressed/thirtle.png'
+import kilordle from './assets/compressed/kilordle.png'
+import polydle from './assets/compressed/polydle.png'
+import sedecordle from './assets/compressed/sedecordle.png'
+import worwordledle from './assets/compressed/worwordledle.png'
+import crosswordle from './assets/compressed/crosswordle.png'
+import evilwurdle from './assets/compressed/evilwurdle.png'
+import speedle from './assets/compressed/speedle.png'
+import poeltl from './assets/compressed/poeltl.png'
+import squardle from './assets/compressed/squardle.png'
+import absurdle from './assets/compressed/absurdle.png'
+import evilwordle from './assets/compressed/evilwordle.png'
+import qwrtl from './assets/compressed/qwrtl.png'
+import waffle from './assets/compressed/waffle.png'
+import reversle from './assets/compressed/reversle.png'
+import survivle from './assets/compressed/survivle.png'
+import absurvivle from './assets/compressed/absurvivle.png'
+import scrabwordle from './assets/compressed/scrabwordle.png'
+import xordle from './assets/compressed/xordle.png'
+import fibble from './assets/compressed/fibble.png'
+import sixdle from './assets/compressed/sixdle.png'
+import warmle from './assets/compressed/warmle.png'
+import wordpeaks from './assets/compressed/wordlepeaks.png'
+import symble from './assets/compressed/symble.png'
+import weredle from './assets/compressed/weredle.png'
+import nerdle from './assets/compressed/nerdle.png'
+import weaver from './assets/compressed/weaver.png'
+import taylordle from './assets/compressed/taylordle.png'
+import byrdle from './assets/compressed/byrdle.png'
+import btswordle from './assets/compressed/btswordle.png'
+import sweardle from './assets/compressed/sweardle.png'
+import lewdle from './assets/compressed/lewdle.png'
+import jordle from './assets/compressed/jordle.png'
+import queerdle from './assets/compressed/queerdle.png'
+import ygordle from './assets/compressed/ygordle.png'
+import oundle from './assets/compressed/oundle.png'
+import paimordle from './assets/compressed/paimordle.png'
+import brdl from './assets/compressed/brdl.png'
+import lordle_of_the_rings from './assets/compressed/lordle_of_the_rings.png'
+import swordle from './assets/compressed/swordle.png'
+import gordle from './assets/compressed/gordle.png'
+import pawdle from './assets/compressed/pawdle.png'
+import scholardle from './assets/compressed/scholardle.png'
+import hogwartle from './assets/compressed/hogwartle.png'
+import foodle from './assets/compressed/foodle.png'
+import airportle from './assets/compressed/airportle.png'
+import airportle_2 from './assets/compressed/airportle_2.png'
+import lemot from './assets/compressed/lemot.png'
+import sutom from './assets/compressed/sutom.png'
+import verba from './assets/compressed/verba.png'
+import wordlees from './assets/compressed/wordlees.png'
+import termo from './assets/compressed/termo.png'
+import ordlig from './assets/compressed/ordlig.png'
+import hebrew from './assets/compressed/hebrew.png'
+import kerdle from './assets/compressed/kerdle.png'
+import korean from './assets/compressed/korean.png'
+import welshwordle from './assets/compressed/welshwordle.png'
+import musinimi from './assets/compressed/musinimi.png'
+import ipadle from './assets/compressed/ipadle.png'
+import wordwazzle from './assets/compressed/wordwazzle.png'
+import hellowordl from './assets/compressed/hellowordl.png'
+import wordguessr from './assets/compressed/wordguessr.png'
+import wheeldle from './assets/compressed/wheeldle.png'
+import wordmaster from './assets/compressed/wordmaster.png'
+import wordleoff from './assets/compressed/wordleoff.png'
+import squabble from './assets/compressed/squabble.png'
+import wordhoot from './assets/compressed/wordhoot.png'
+import wordlecup from './assets/compressed/wordlecup.png'
+import worduel from './assets/compressed/worduel.png'
+import wordlewithfriends from './assets/compressed/wordlewithfriends.png'
+import hexlecolor from './assets/compressed/hexlecolor.png'
+import bytle from './assets/compressed/bytle.png'
+import hexle from './assets/compressed/hexle.png'
+import semantle from './assets/compressed/semantle.png'
+import commandercodex from './assets/compressed/commandercodex.png'
+import scidle from './assets/compressed/scidle.png'
+import squirdle from './assets/compressed/squirdle.png'
+import whoareya from './assets/compressed/whoareya.png'
+import framed from './assets/compressed/framed.png'
+import cloudle from './assets/compressed/cloudle.png'
+import redactle from './assets/compressed/redactle.png'
+import movlie from './assets/compressed/movlie.png'
+import bookli from './assets/compressed/bookli.png'
+import thesaurdle from './assets/compressed/thesaurdle.png'
+import joinedwords from './assets/compressed/joinedwords.png'
+import revertle from './assets/compressed/revertle.png'
+import quintessential from './assets/compressed/quintessential.png'
+import antiwordle from './assets/compressed/antiwordle.png'
+import tusmo from './assets/compressed/tusmo.png'
+import optimle from './assets/compressed/optimle.png'
+import chessle from './assets/compressed/chessle.png'
+import fusekle from './assets/compressed/fusekle.png'
+import pictle from './assets/compressed/pictle.png'
+import heardle from './assets/compressed/heardle.png'
+import squaredle from './assets/compressed/squaredle.png'
+import primel from './assets/compressed/primel.png'
+import mathler from './assets/compressed/mathler.png'
+import nerdle2 from './assets/compressed/nerdle2.png'
+import mathle from './assets/compressed/mathle.png'
+import numberle from './assets/compressed/numberle.png'
+import equatle from './assets/compressed/equatle.png'
+import addle from './assets/compressed/addle.png'
+import subwaydle from './assets/compressed/subwaydle.png'
+import worldle from './assets/compressed/worldle.png'
+import globle from './assets/compressed/globle.png'
+import tradle from './assets/compressed/tradle.png'
+import flagdle from './assets/compressed/flagdle.png'
+import flagle from './assets/compressed/flagle.png'
+import letterle from './assets/compressed/letterle.png'
+import passwordle from './assets/compressed/passwordle.png'
+import warbl from './assets/warbl.png'
+import flaggle from './assets/flaggle.png'
 
 export type EntryType = { name: string; url: string; img: string; desc: string; }
 
@@ -145,6 +147,12 @@ export const data: Data = [{
             "url": "https://www.quordle.com/",
             "img": quordle,
             "desc": "Wordle on four different grids at once."
+        },
+        {
+            "name": "Quintessential",
+            "url": "https://quintessential.fun/",
+            "img": quintessential,
+            "desc": "5x5 grid with filled with letters. Swap tiles to get each of the 5 horizontal words correct in as few moves as possible."
         },
         {
             "name": "Fibble",
@@ -205,6 +213,12 @@ export const data: Data = [{
             "desc": "Wordle with two disjoint answers but only one board. Guess both words correctly to win."
         },
         {
+            "name": "Optimle",
+            "url": "https://optimle.meow.garden/",
+            "img": optimle,
+            "desc": "Complete a half-completed wordle as optimally as possible."
+        },
+        {
             "name": "Fibble",
             "url": "https://fibble.xyz/",
             "img": fibble,
@@ -239,12 +253,6 @@ export const data: Data = [{
             "url": "https://wordwormdormdork.com/",
             "img": weaver,
             "desc": "Use words to traverse from one word to another."
-        },
-        {
-            "name": "Quintessential",
-            "url": "https://quintessential.fun/",
-            "img": quintessential,
-            "desc": "5x5 grid with filled with letters. Swap tiles to get each of the 5 horizontal words correct in as few moves as possible."
         },
         {
             "name": "Wor-wordle-dle",
@@ -286,7 +294,13 @@ export const data: Data = [{
             "name": "Survivle",
             "url": "https://lazyguyy.github.io/survivle/",
             "img": survivle,
-            "desc": "Normal Wordle rules but with the aim to lose and avoid finding the word within 6 guesses."
+            "desc": "Avoid guessing the hidden word in as many tries as possible. Sounds easy, but there's a catch!"
+        },
+        {
+            "name": "AntiWordle",
+            "url": "https://www.antiwordle.com/",
+            "img": antiwordle,
+            "desc": "Avoid guessing the hidden word in as many tries as possible. Sounds easy, but there's a catch!"
         },
         {
             "name": "Absurdle",
@@ -305,12 +319,6 @@ export const data: Data = [{
             "url": "https://areiche2.github.io/evil-wurdle/",
             "img": evilwurdle,
             "desc": "???"
-        },
-        {
-            "name": "Absurvivle",
-            "url": "https://www.timblack.net/absurvivle/",
-            "img": absurvivle,
-            "desc": "Absurdle but the goal is to survive as long as possible."
         },
         {
             "name": "QWRTL",
@@ -343,23 +351,11 @@ export const data: Data = [{
             "desc": "??"
         },
         {
-            "name": "AntiWordle",
-            "url": "https://www.antiwordle.com/",
-            "img": antiwordle,
-            "desc": "??"
-        },
-        {
             "name": "Tusmo",
             "url": "https://www.tusmo.xyz/",
             "img": tusmo,
-            "desc": "based on french gameshow motus"
+            "desc": "Wordle with levels which increase the word length."
         },
-        {
-            "name": "Optimle",
-            "url": "https://optimle.meow.garden/",
-            "img": optimle,
-            "desc": "answer narrows doew to the largest pool of words that end with teh same thtree letters"
-        }
     ]
 },
 {
@@ -439,6 +435,12 @@ export const data: Data = [{
             "url": "https://globle-game.com/",
             "img": globle,
             "desc": "Guess a country based on color-coded hints indicating distance."
+        },
+        {
+            "name": "Flaggle",
+            "url": "https://ducc.pythonanywhere.com/flaggle/",
+            "img": flaggle,
+            "desc": "Guess a country flag that shows colour intersection of previous guesses."
         },
         {
             "name": "Flagdle",
@@ -602,7 +604,13 @@ export const data: Data = [{
             "name": "Heardle",
             "url": "https://www.heardle.app/",
             "img": heardle,
-            "desc": "Guess a song by hearing increasingly long opening snippets. Features design language fromWordle."
+            "desc": "Guess a song by hearing increasingly long opening snippets."
+        },
+        {
+            "name": "Warbl",
+            "url": "https://www.warbl.org/",
+            "img": warbl,
+            "desc": "Guess a song by hearing it play backwards "
         },
         {
             "name": "Byrdle",
@@ -1007,7 +1015,13 @@ export const data: Data = [{
             "url": "https://rsk0315.github.io/playground/passwordle.html",
             "img": passwordle,
             "desc": "Receive hints based on the difference between SHA-256 hash of your guess and the hash of theanswer."
-        }
+        },
+        {
+            "name": "Absurvivle",
+            "url": "https://www.timblack.net/absurvivle/",
+            "img": absurvivle,
+            "desc": "A blend of Absurdle and Survivle. You are trying to not guess the secret word. But the computer can choose its word adversarially."
+        },
     ]
 }
 ]

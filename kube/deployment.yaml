@@ -1,0 +1,23 @@
+apiVersion: apps/v1 # for versions before 1.6.0 use extensions/v1beta1
+kind: Deployment
+metadata:
+  name: everydle
+  namespace: default
+  labels:
+    app: everydle
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: everydle
+  template:
+    metadata:
+      labels:
+        app: everydle
+    spec:
+      containers:
+        - name: everydle
+          image: unrufflednightingale/everydle:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80

@@ -28,7 +28,7 @@ function Entry({name, url, img, desc}: EntryProps) {
         </div>
       </a>
       { tooltip && 
-          <ReactTooltip className={"tooltip"}id={name} place="bottom" type="light" effect="float">
+          <ReactTooltip className={"tooltip"} id={name} place="bottom" type="light" effect="float">
             <h1 style={{fontFamily: "Lora"}}>{name}</h1>
             <span style={{fontFamily: "Lato"}}>{desc}</span>
             <p></p>

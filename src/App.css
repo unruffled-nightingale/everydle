@@ -1,9 +1,17 @@
 .App{
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   padding-left: 5%;
   padding-right: 3%;
   padding-top: 5%;
   height: 100%;
   width: 90%; 
   overflow: hidden;
+}
+
+.Thanks p {
+  font-family: "Lato";
+  font-size: 0.8em
+}
+.Thanks {
+  padding-top: 84px;
 }
