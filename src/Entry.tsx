@@ -20,14 +20,18 @@ function Entry({name, url, img, desc}: EntryProps) {
         >
         <div 
           onMouseEnter={() => showTooltip(true)}
-          onMouseLeave={() => {showTooltip(false)}}>
+          onTouchStart={() => showTooltip(true)}
+          onMouseLeave={() => {showTooltip(false)}}
+          onTouchEnd={() => {showTooltip(false)}}
+          >
           <img alt={name} src={img}></img>
         </div>
       </a>
       { tooltip && 
-          <ReactTooltip id={name} place="bottom" type="light" effect="float">
-            <h1>{name}</h1>
-            <span>{desc}</span>
+          <ReactTooltip className={"tooltip"}id={name} place="bottom" type="light" effect="float">
+            <h1 style={{fontFamily: "Lora"}}>{name}</h1>
+            <span style={{fontFamily: "Lato"}}>{desc}</span>
+            <p></p>
           </ReactTooltip> 
       }
    </>

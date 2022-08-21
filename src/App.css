@@ -1,4 +1,9 @@
 .App{
-  padding-left: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 150px;
+  padding-left: 5%;
+  padding-right: 3%;
+  padding-top: 5%;
+  height: 100%;
+  width: 90%; 
+  overflow: hidden;
 }
