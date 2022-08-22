@@ -3,7 +3,8 @@
 }
 .Thanks p {
   font-family: "Lato";
-  font-size: 0.8em
+  font-size: 0.8em;
+  white-space: nowrap;
 }
 .Thanks .url {
   font-size: 0.7em

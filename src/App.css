@@ -6,6 +6,7 @@
   height: 100%;
   width: 90%; 
   overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .Thanks p {

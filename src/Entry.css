@@ -5,6 +5,7 @@
   width: 75px;
   display: inline-block;
   text-decoration: none;
+  cursor:pointer;
 }
 .Entry div{
   height: 50px;
@@ -26,8 +27,4 @@
 .Entry h1 {
   font-size: 0.8em;
   text-align: center;
-}
-.tooltip {
-  max-width: 250px;
-  color: red;
 }

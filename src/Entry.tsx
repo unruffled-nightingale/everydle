@@ -1,41 +1,45 @@
-import { useState } from 'react';
-import ReactTooltip from 'react-tooltip';
 import './Entry.css';
-import {data, EntryType} from './resources/data'
+import {EntryType} from './resources/data'
+import {isMobile} from 'react-device-detect';
+import {memo} from 'react';
 
-type EntryProps = EntryType;
+type EntryProps = EntryType & {
+  setSelectedName: (x: string | undefined) => void
+  setSelectedDesc: (x: string | undefined) => void
+  setSelectedUrl: (x: string | undefined) => void
+}
 
-function Entry({name, url, img, desc}: EntryProps) {
+function Entry({name, url, img, desc, setSelectedName, setSelectedDesc, setSelectedUrl}: EntryProps) {
 
-  const [tooltip, showTooltip] = useState(false);
+  const setInfo = () => {
+    setSelectedName(name)
+    setSelectedDesc(desc)
+    setSelectedUrl(url)
+  }
 
+  const unsetInfo = () => {
+    setSelectedName(undefined)
+    setSelectedDesc(undefined)
+    setSelectedUrl(undefined)
+  }
 
   return (
-    <>
       <a className="Entry" 
         target="_blank" 
         rel="noreferrer" 
-        href={url}
+        href={!isMobile ? url : undefined}
         data-tip data-for={name}
         >
         <div 
-          onMouseEnter={() => showTooltip(true)}
-          onTouchStart={() => showTooltip(true)}
-          onMouseLeave={() => {showTooltip(false)}}
-          onTouchEnd={() => {showTooltip(false)}}
+            onClick={setInfo}
+            onMouseEnter={setInfo}
+            onMouseLeave={unsetInfo}
           >
           <img alt={name} src={img}></img>
         </div>
       </a>
-      { tooltip && 
-          <ReactTooltip className={"tooltip"} id={name} place="bottom" type="light" effect="float">
-            <h1 style={{fontFamily: "Lora"}}>{name}</h1>
-            <span style={{fontFamily: "Lato"}}>{desc}</span>
-            <p></p>
-          </ReactTooltip> 
-      }
-   </>
   );
 }
 
-export default Entry;
+const MemoEntry = memo(Entry);
+export default MemoEntry;

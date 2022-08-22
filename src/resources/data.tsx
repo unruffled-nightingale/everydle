@@ -137,7 +137,7 @@ export const data: Data = [{
 {
     "Recommended": [
         {
-            "name": "xordle",
+            "name": "Xordle",
             "url": "https://xordle.xyz/",
             "img": xordle,
             "desc": "Wordle with two disjoint answers but only one board. Guess both words correctly to win."
@@ -878,7 +878,7 @@ export const data: Data = [{
             "desc": "Guesses and answers must be three-letter airport codes."
         },
         {
-            "name": "Airportle",
+            "name": "Airportl",
             "url": "https://airportle.scottscheapflights.com/",
             "img": airportle_2,
             "desc": "Guesses and answers must be three-letter airport codes."
