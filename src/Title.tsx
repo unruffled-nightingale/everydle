@@ -4,7 +4,7 @@ function Title() {
   return (
     <div className='Title'>
       <h1>everydle</h1>
-      <p>A definitive list or Wordle variants</p>
+      <p>A definitive list of Wordle variants</p>
     </div>
   );
 }

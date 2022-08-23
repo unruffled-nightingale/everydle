@@ -67,3 +67,10 @@ You must must have `kubectl` configured for this command to work.
 Redeploys the `emoji-art` deployment on kubernetes.
 
 You must must have `kubectl` configured for this command to work.
+
+
+## TODOs
+
+- Add genre tags to data to avoid duplication
+- Move typs to their own file
+- Add recent visited

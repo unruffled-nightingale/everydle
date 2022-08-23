@@ -149,16 +149,16 @@ export const data: Data = [{
             "desc": "Wordle on four different grids at once."
         },
         {
+            "name": "Weaver",
+            "url": "https://wordwormdormdork.com/",
+            "img": weaver,
+            "desc": "Use words to traverse from one word to another."
+        },
+        {
             "name": "Quintessential",
             "url": "https://quintessential.fun/",
             "img": quintessential,
             "desc": "5x5 grid with filled with letters. Swap tiles to get each of the 5 horizontal words correct in as few moves as possible."
-        },
-        {
-            "name": "Fibble",
-            "url": "https://fibble.xyz/",
-            "img": fibble,
-            "desc": "Wordle, but the clue contains one lie in every row."
         },
         {
             "name": "Nerdle",
@@ -213,6 +213,12 @@ export const data: Data = [{
             "desc": "Wordle with two disjoint answers but only one board. Guess both words correctly to win."
         },
         {
+            "name": "Weaver",
+            "url": "https://wordwormdormdork.com/",
+            "img": weaver,
+            "desc": "Use words to traverse from one word to another."
+        },
+        {
             "name": "Optimle",
             "url": "https://optimle.meow.garden/",
             "img": optimle,
@@ -247,12 +253,6 @@ export const data: Data = [{
             "url": "https://wafflegame.net/",
             "img": waffle,
             "desc": "Squaredle grid with shuffled letters and 15 swaps to find the correct grid."
-        },
-        {
-            "name": "Weaver",
-            "url": "https://wordwormdormdork.com/",
-            "img": weaver,
-            "desc": "Use words to traverse from one word to another."
         },
         {
             "name": "Wor-wordle-dle",

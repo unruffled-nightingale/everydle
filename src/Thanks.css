@@ -1,5 +1,14 @@
 .Thanks {
   padding-top: 84px;
+  text-decoration: none;
+}
+.Thanks a {
+  color: inherit;
+  text-decoration: none;
+}
+.Thanks a:hover {
+  font-weight: bold;
+  text-decoration: underline;
 }
 .Thanks p {
   font-family: "Lato";
