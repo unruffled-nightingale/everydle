@@ -7,6 +7,7 @@ type TooltipMobile = {
 }
 
 function TooltipMobile({name, desc, url}: TooltipMobile) {
+
   return (
     <a
       target="_blank" 
@@ -14,8 +15,9 @@ function TooltipMobile({name, desc, url}: TooltipMobile) {
       href={url ? url : undefined}
       >
       <div className="TooltipMobile">
-        <h1>{name}&nbsp;&nbsp;&nbsp;➔</h1>
+        <h1>{name}</h1>
         <p>{desc}</p>
+        <span>GO TO WEBSITE&nbsp;➔</span>
       </div> 
     </a>
   );

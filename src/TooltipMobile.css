@@ -12,8 +12,16 @@
   padding-right: 5%;
 }
 .TooltipMobile h1 {
-  font-family: "Lora"
+  font-family: "Lora";
+  margin-bottom: 2px;
+}
+.TooltipMobile span {
+  font-family: "Lato";
+  letter-spacing: 2px;
+  font-size: 0.7em;
+  font-weight: bold;
 }
 .TooltipMobile p {
-  font-family: "Lato"
+  font-family: "Lato";
+  padding-bottom: 1px;
 }
