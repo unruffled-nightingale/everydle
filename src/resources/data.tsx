@@ -155,6 +155,12 @@ export const data: Data = [{
             "desc": "Use words to traverse from one word to another."
         },
         {
+            "name": "Sixdle",
+            "url": "https://word.rodeo/Sixdle/",
+            "img": sixdle,
+            "desc": "Wordle with six-letter words and answers."
+        },
+        {
             "name": "Quintessential",
             "url": "https://quintessential.fun/",
             "img": quintessential,
