@@ -22,7 +22,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker:build": "docker build -t everydle .",
+    "docker:run": "yarn run docker:build; docker run -p 3002:80 -d everydle",
+    "docker:tag": "yarn run docker:build; dotenv cross-var docker tag everydle %DOCKER_REGISTRY%/everydle:latest",
+    "docker:push": "yarn run docker:tag; dotenv cross-var docker push %DOCKER_REGISTRY%/everydle:latest",
+    "kube:apply": "yarn run docker:push; kubectl apply -f ./kube/deployment.yaml",
+    "kube:redeploy": "yarn run docker:push; kubectl rollout restart deploy everydle"
   },
   "eslintConfig": {
     "extends": [

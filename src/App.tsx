@@ -1,13 +1,13 @@
 import './App.css';
-import MemoEntry from './Entry';
-import GenreSplitter from './GenreSplitter';
-import Title from './Title';
-import Thanks from './Thanks';
+import MemoEntry from './components/Entry';
+import GenreSplitter from './components/GenreSplitter';
+import Title from './components/Title';
+import Thanks from './components/Thanks';
 import {data, EntryType} from './resources/data'
 import { useState } from 'react';
 import {isMobile} from 'react-device-detect';
-import TooltipMobile from './TooltipMobile';
-import TooltipDesktop from './TooltipDesktop';
+import TooltipMobile from './components/TooltipMobile';
+import TooltipDesktop from './components/TooltipDesktop';
 
 
 function App() {
