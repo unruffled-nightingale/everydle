@@ -1,0 +1,27 @@
+.TooltipMobile {
+  background-color: black;
+  opacity: 0.85;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 200px;
+  z-index: 100;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.TooltipMobile h1 {
+  font-family: "Lora";
+  margin-bottom: 2px;
+}
+.TooltipMobile span {
+  font-family: "Lato";
+  letter-spacing: 2px;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+.TooltipMobile p {
+  font-family: "Lato";
+  padding-bottom: 1px;
+}
